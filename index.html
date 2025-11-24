@@ -8,6 +8,9 @@
     <link rel="shortcut icon" href="./images/cat4.ico" type="images/x-icon" />
     <title>Taeyoon&#39;s Website</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <script src="./project.js" defer></script>
+
     <script
       src="https://kit.fontawesome.com/133260cff9.js"
       crossorigin="anonymous"
@@ -19,6 +22,7 @@
       <div class="header__logo">
         <img class="header__logo__img" src="./images/cat4.ico" alt="logo" />
         <h1 class="header__logo__title"><a href="#">Taeyoon</a></h1>
+        <button id="themeToggle" class="theme-toggle">다크모드</button>
       </div>
       <nav class="header__nav">
         <ul class="header__menu">
@@ -41,6 +45,7 @@
           <strong class="home__title--strong">태윤입니당.</strong>
         </h2>
         <p class="home__description">열심히 사는 사람이에요</p>
+        <p class="date_time_set">좋은 아침입니다.</p>
         <a class="home__contact" href="#contact">연락처</a>
       </section>
       <!-- about -->
@@ -195,11 +200,11 @@
             </li>
           </ul>
           <ul class="projects">
-            <li class="project">
+            <li class="project" data-type="front-end">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
@@ -208,119 +213,93 @@
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="front-end">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #2</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="front-end">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #3</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="back-end">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #4</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="mobile">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #5</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="back-end">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #6</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="mobile">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #7</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="front-end">
               <a href="#" target="_blank">
                 <img
                   src="./images/BOproject.PNG"
-                  alt="포트폴리오"
+                  alt="project1"
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">Project #8</h3>
-                  <p>클론코딩 사이트</p>
-                </div>
-              </a>
-            </li>
-            <li class="project">
-              <a href="#" target="_blank">
-                <img
-                  src="./images/BOproject.PNG"
-                  alt="포트폴리오"
-                  class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #9</h3>
-                  <p>클론코딩 사이트</p>
-                </div>
-              </a>
-            </li>
-            <li class="project">
-              <a href="#" target="_blank">
-                <img
-                  src="./images/BOproject.PNG"
-                  alt="포트폴리오"
-                  class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #10</h3>
+                  <h3 class="project__title">Project #1</h3>
                   <p>클론코딩 사이트</p>
                 </div>
               </a>
@@ -404,5 +383,15 @@
         <p>&copy; TaeYoon-all rigths reserved</p>
       </div>
     </footer>
+    <!-- modal -->
+    <div id="projectModal" class="project-modal">
+      <div class="project-modal__overlay"></div>
+      <div class="project-modal__content">
+        <button class="project-modal__close">&times;</button>
+        <img class="project-modal__img" src="" alt="" />
+        <h3 class="project-modal__title"></h3>
+        <p class="project-modal__desc"></p>
+      </div>
+    </div>
   </body>
 </html>
